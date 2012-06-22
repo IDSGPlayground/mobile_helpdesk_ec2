@@ -27,4 +27,3 @@ pyramidtest/static/map.png
 pyramidtest/static/mobile_link_arrow.png
 pyramidtest/static/stylesheet.css
 pyramidtest/templates/mytemplate.mako
-pyramidtest/templates/mytemplate.pt

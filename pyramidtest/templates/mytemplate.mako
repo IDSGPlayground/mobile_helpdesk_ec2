@@ -7,20 +7,20 @@
 <link href="https://s3.amazonaws.com/idsg/jquerymobile/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
 <style type="text/css">
 body {background: #000; color: #FFF;}
-#page{padding: 20px;}
+#page{}
 .one, .two, .three, .four {width:40%; height:40%; position: relative; margin:5%; font-family:Arial, Helvetica, sans-serif; font-size: 14px;
 						   }
 a{text-decoration:none; color:#000;}
 #assist{position:absolute; bottom: 0px; background:none; width:100%; text-align:center; color:#000;}
 
-.article{width: 330px; height: 330px; margin: 0px auto 0px auto;} 
+.article{width: 280px; height: 280px; margin: 0px auto 0px auto;} 
 .one {float: left; background: #FFF url('https://s3.amazonaws.com/idsg/images/call.png') center no-repeat;}
 .two {float: right; background: #FFF url('https://s3.amazonaws.com/idsg/images/send.png') center no-repeat;}
 .three {float: left; background: #FFF url('https://s3.amazonaws.com/idsg/images/find.png') center no-repeat;}
 .four {float: right; background: #FFF url('https://s3.amazonaws.com/idsg/images/trouble.png') center no-repeat;}
 
-.logo{height: 167px; width:300px; margin: 0px auto 0px auto; background: url('https://s3.amazonaws.com/idsg/images/logo.png') center no-repeat;}
-.foot{width:330px; height:330px; color: #FFF; font-family:Arial, Helvetica, sans-serif; font-size:32px; margin: 0px auto 0px auto;
+.logo{height: 167px; width:280px; margin: 0px auto 0px auto; background: url('https://s3.amazonaws.com/idsg/images/logo.png') center no-repeat;}
+.foot{width:280px; height:330px; color: #FFF; font-family:Arial, Helvetica, sans-serif; font-size:32px; margin: 0px auto 0px auto;
       background:url('https://s3.amazonaws.com/idsg/images/infobar.png') center no-repeat;}
 .help_button{width:197px; height:42px; background:url('https://s3.amazonaws.com/idsg/images/help_button.png') center no-repeat;}
 </style>
@@ -34,7 +34,7 @@ a{text-decoration:none; color:#000;}
 <div data-role="page" id="page">
 	<div class="logo"></div>
 	<div data-role="content" class="article">
-		<a href=""><div class="one"><span id="assist">CALL US</span></div></a>
+		<a href="tel:510-642-7777"><div class="one"><span id="assist">CALL US</span></div></a>
     	<a href="#page2"><div class="two"><span id="assist">SEND HELP</span></div></a>
     	<a href="#page3"><div class="three"><span id="assist">FIND US</span></div></a>
 		<a href="#page4"><div class="four"><span id="assist">TROUBLESHOOT</span></div></a>
@@ -51,7 +51,7 @@ a{text-decoration:none; color:#000;}
 		<p>We can send a helpdesk representative to your location right now to diagnose and resolve your issue! This is a free
         service provided by the EECS helpdesk, so don't hesitate. Press the button below and wait in the room you're in now; we'll
       be right there!</p>
-        <center><div class="help_button"></div></center>
+        <center><a data-ajax="false"  href="/done"><div class="help_button"></div></a></center>
   </div>
 	<div data-role="footer">
 		<h4>&copy;2012 &bull; University of California, Berkeley</h4>
