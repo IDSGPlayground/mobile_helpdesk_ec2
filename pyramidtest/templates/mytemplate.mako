@@ -8,7 +8,7 @@
 <style type="text/css">
 body {background: #000; color: #FFF;}
 #page{}
-.one, .two, .three, .four {width:40%; height:40%; position: relative; margin:5%; font-family:Arial, Helvetica, sans-serif; font-size: 14px;
+.one, .two, .three, .four {width:40%; height:40%; position: relative; margin:5%; font-family:Arial, Helvetica, sans-serif; font-size: 12px;
 						   }
 a{text-decoration:none; color:#000;}
 #assist{position:absolute; bottom: 0px; background:none; width:100%; text-align:center; color:#000;}
@@ -20,9 +20,10 @@ a{text-decoration:none; color:#000;}
 .four {float: right; background: #FFF url('https://s3.amazonaws.com/idsg/images/trouble.png') center no-repeat;}
 
 .logo{height: 167px; width:280px; margin: 0px auto 0px auto; background: url('https://s3.amazonaws.com/idsg/images/logo.png') center no-repeat;}
-.foot{width:280px; height:330px; color: #FFF; font-family:Arial, Helvetica, sans-serif; font-size:32px; margin: 0px auto 0px auto;
-      background:url('https://s3.amazonaws.com/idsg/images/infobar.png') center no-repeat;}
+.foot{width:280px; height:120px; color: #FFF; font-family:Arial, Helvetica, sans-serif; font-size:32px; margin: 0px auto 0px auto;
+      background:url('https://s3.amazonaws.com/idsg/images/infobar.png') bottom  no-repeat;}
 .help_button{width:197px; height:42px; background:url('https://s3.amazonaws.com/idsg/images/help_button.png') center no-repeat;}
+.readable{color:#FFF;}
 </style>
 <script src="https://s3.amazonaws.com/idsg/jquerymobile/jquery-1.5.min.js" type="text/javascript"></script>
 <script src="https://s3.amazonaws.com/idsg/jquerymobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
@@ -48,9 +49,9 @@ a{text-decoration:none; color:#000;}
 		<h1>Helping Hand</h1>
 	</div>
 	<div data-role="content">	
-		<p>We can send a helpdesk representative to your location right now to diagnose and resolve your issue! This is a free
+		<span class="readable">We can send a helpdesk representative to your location right now to diagnose and resolve your issue! This is a free
         service provided by the EECS helpdesk, so don't hesitate. Press the button below and wait in the room you're in now; we'll
-      be right there!</p>
+      be right there!</span>
         <center><a data-ajax="false"  href="/done"><div class="help_button"></div></a></center>
   </div>
 	<div data-role="footer">
@@ -63,9 +64,9 @@ a{text-decoration:none; color:#000;}
 		<h1>Map</h1>
 	</div>
 	<div data-role="content">
-		<h2>The Helpdesk is at 395 Corey Hall</h2>
-		<p>The EECS buildings are: Soda Hall, Corey Hall, Sutardja Dai Hall, and Calvin Hall. The helpdesk in Corey
-        is located on the third floor near the passenger elevators.</p>
+		<span class="readable"><h2>The Helpdesk is at 395 Cory Hall</h2>
+		<p>The EECS buildings are: Soda Hall, Cory Hall, Sutardja Dai Hall, and Calvin Hall. The helpdesk in Cory
+        is located on the third floor near the passenger elevators.</p></span>
 		<figure>
 			<img src="https://s3.amazonaws.com/idsg/images/map.png" width="250" />
 		</figure>
@@ -81,8 +82,8 @@ a{text-decoration:none; color:#000;}
 		<h1>Try these:</h1>
 	</div>
 	<div data-role="content">	
-		<p>We appreciate your help in pointing out network issues. Please bombard Aaron with emails describing your problem
-        so he will know about it. In the future, a form or something special will be on this page to make it useful.</p>
+		<span class="readable">We appreciate your help in pointing out network issues. Please bombard Aaron with emails describing your problem
+        so he will know about it. In the future, a form or something special will be on this page to make it useful.</span>
 	</div>
 	<div data-role="footer">
 		<h4>&copy;2012 &bull; University of California, Berkeley</h4>
