@@ -47,8 +47,7 @@ def twilio_response(request):
 
     resp = twilio.twiml.Response()
     resp.sms(message)
-    
-    # return str(resp)
+
     return Response(str(resp))
 
 conn_err_msg = """\
