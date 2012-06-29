@@ -3,6 +3,7 @@ MANIFEST.in
 README.txt
 development.ini
 production.ini
+requirements.txt
 setup.cfg
 setup.py
 pyramid_test.egg-info/PKG-INFO
@@ -26,4 +27,5 @@ pyramidtest/static/logo.png
 pyramidtest/static/map.png
 pyramidtest/static/mobile_link_arrow.png
 pyramidtest/static/stylesheet.css
+pyramidtest/templates/done.mako
 pyramidtest/templates/mytemplate.mako

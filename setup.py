@@ -15,6 +15,8 @@ requires = [
     'zope.sqlalchemy',
     'waitress',
     'colanderalchemy',
+    'boto',
+    'twilio'
     ]
 
 setup(name='pyramid-test',
