@@ -25,7 +25,7 @@ a{text-decoration:none; color:#595959;}
 .help_button{width:197px; height:42px; background:url('https://s3.amazonaws.com/idsg/version3/send_help.png') center no-repeat;}
 .readable{color:#5e5e5e;}
 .readable_footer{color:#5e5e5e; font-size: 10px; text-align:center;}
-.rectangle{width:274px; height: 70px; padding: 3px;}
+.rectangle{width:274px; height: 70px; padding: 3px; margin: 0px auto 0px auto;}
 .box{width:70px; height:70px; float:left; color:#FFF; text-align:center; font-face:Arial; font-size:60px; background:#565656}
 .boxtext{width:194px; height:64px; float:right; color:#000; font-face:Arial; padding:3px; font-size:16px; background:#b7b7b7}
 </style>
